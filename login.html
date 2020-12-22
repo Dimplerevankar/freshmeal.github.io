@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        background-color: rgb(231,229,229);
+
+    }
+    .container{
+        text-align: center;
+        background-color:white;
+        margin-top: 100px;
+        margin-left: 245px;
+        padding: 75px;
+        width:50% ;
+        border-style: solid;
+        border-color:white;
+        border-radius: 40px;
+       }
+       .form.group input{
+           text-align: center;
+           display:block;
+           width:300px;
+           padding:6px;
+           border: 2px solid black;
+           margin:5px auto;
+
+       }
+       .container h1{
+           text-align: center;
+
+       }
+       .button{
+        padding:6px 20px;
+        border-width: 2px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(5, 5, 5);
+        background-color: whitesmoke;
+        color:black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 1.0rem;
+        cursor: pointer;
+       }
+      .button:hover{
+        color:white;
+        background-color:rgb(212, 83, 35)
+       }
+        .navbar{
+           text-align: center;
+           color: black;
+       }
+       .navbar a{
+           color:black;
+           cursor: pointer;
+       }
+       .navbar a:active{
+           color: orangered;
+            background-color:transparent;
+         }
+    
+       
+</style>
+<body>
+    <div class="container">
+        <h1> LOG IN</h1>
+        <form action="noaction.php">
+            <div class="form group"> 
+                <input type="email" name="" placeholder="Email"><br> 
+                <input type="password" name="" placeholder="password"><br>
+                <button class="button">Login</button>
+            </div>
+                     <ul class="navbar">
+                         <a href="forgetpassword.html" class="active">Forgot password?</a>
+                         <p> Have an Account?<a href="createaccount.html" class="active">Create Account</a></p>
+                        </ul>
+                      
+        </form>
+
+
+    </div>
+</body>
+</html>
